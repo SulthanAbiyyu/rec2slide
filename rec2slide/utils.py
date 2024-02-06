@@ -1,5 +1,5 @@
 from cv2 import VideoCapture, CAP_PROP_FPS
-from model import Video, Frame
+from .model import Video, Frame
 from PIL import Image
 
 class Utils:

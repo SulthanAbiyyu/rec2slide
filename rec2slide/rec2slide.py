@@ -1,7 +1,7 @@
 from pydantic import BaseModel
-from scorer import ScoringMethod, SimilarityComparer
-from model import Frame
-from utils import Utils
+from .scorer import ScoringMethod, SimilarityComparer
+from .model import Frame
+from .utils import Utils
 
 class Config(BaseModel):
     interval: int = 10

@@ -1,1 +1,1 @@
-from .rec2slide import Engine, Config
+from .rec2slide import Engine, Config, Utils
